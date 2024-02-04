@@ -22,4 +22,6 @@ Route::middleware("auth:sanctum")->group(function ()
     Route::post("logout",[AuthController::class,"logout"]);
     Route::apiResource("tasks",TaskController::class);
     Route::apiResource("projects",ProjectController::class);
+    Route::post("add-member/{project}",[\App\Http\Controllers\MembersController::class,"addMembers"]);
+    Route::delete("delete-member/{project}",[\App\Http\Controllers\MembersController::class,"deleteMember"]);
 });
