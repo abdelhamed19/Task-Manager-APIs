@@ -12,3 +12,9 @@ a member of the project so you can add-delete members to your project and assign
 - **Authorization using policy**
 - **Clean code**
 - **Best practice of relations and observers**
+
+### Collection on Postman
+- **[Collection](https://documenter.getpostman.com/view/31513137/2s9YyvCLtt)**
+
+
+
